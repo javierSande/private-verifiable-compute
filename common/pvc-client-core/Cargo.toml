@@ -39,7 +39,7 @@ tokio-util = { version = "0.7", features = ["codec", "io"] }
 # `attester` rev pinned in `pvc-tee-llm/Cargo.toml`. They exchange
 # evidence/claim shapes on the wire, so bumping either side requires
 # verifying the other still verifies the produced evidence.
-verifier = { path = "../../../pvc-app/vendor/trustee/deps/verifier", default-features = false, features = [
+verifier = { path = "../../vendor/trustee/deps/verifier", default-features = false, features = [
   "tdx-verifier",
   "nvidia-verifier",
 ], optional = true }

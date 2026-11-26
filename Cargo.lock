@@ -754,8 +754,6 @@ dependencies = [
 [[package]]
 name = "blind-rsa-signatures"
 version = "0.15.2"
-source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "730c6814c82af047b85a3edc88a3ed0129c6046a6488188ccdf560384643e48f"
 dependencies = [
  "derive-new",
  "derive_more",

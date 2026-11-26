@@ -16,6 +16,7 @@ members = [
   "pvc-cli"
 ]
 resolver = "2"
+exclude = ["vendor/trustee"]
 
 [workspace.package]
 edition = "2024"
@@ -86,3 +87,4 @@ csv-rs = { git = "https://github.com/privacywill/csv-rs.git", rev = "b67a07e" }
 
 [patch.crates-io]
 nvml-wrapper = { git = "https://github.com/rust-nvml/nvml-wrapper", rev = "7e0752f331" }
+blind-rsa-signatures = { path = "vendor/blind-rsa-signatures" }

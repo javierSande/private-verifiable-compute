@@ -1,0 +1,8 @@
+[submodule "vendor/trustee"]
+	path = vendor/trustee
+	url = https://github.com/javierSande/trustee.git
+	branch = pvc-dcap-qvl
+[submodule "vendor/blind-rsa-signatures"]
+	path = vendor/blind-rsa-signatures
+	url = https://github.com/javierSande/rust-blind-rsa-signatures.git
+	branch = pvc-derive-more-fix
